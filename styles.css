@@ -1,0 +1,101 @@
+/* Reset margin dan padding untuk semua elemen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Gaya untuk wrapper */
+.wrap {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Gaya untuk header */
+.header {
+    background: #1a242b;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Gaya untuk menu */
+.menu {
+    background: #e8491d;
+    color: white;
+    padding: 10px 0;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Gaya untuk badan konten */
+.badan {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* Gaya untuk sidebar */
+.sidebar {
+    width: 25%;
+    background: #013f66;
+    color: white;
+    padding: 15px;
+}
+
+.sidebar h2 {
+    color: #e8491d;
+}
+
+/* Gaya untuk konten utama */
+.content {
+    width: 75%;
+    padding: 15px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Gaya untuk footer */
+.footer {
+    background: #35424a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Clearfix untuk mengatasi masalah float */
+.clear {
+    clear: both;
+}
+
+/* Gaya untuk link */
+a {
+    color: #e8491d;
+}
+
+a:hover {
+    text-decoration: underline;
+}
